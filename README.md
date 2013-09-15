@@ -1,6 +1,6 @@
 # browserify-plain-jade
 
-[browserify](https://github.com/substack/node-browserify) + [jade](https://github.com/visionmedia/jade) - straight up.
+[browserify](https://github.com/substack/node-browserify) & [Jade](https://github.com/visionmedia/jade) - straight up.
 
 ## Another, really?
 
