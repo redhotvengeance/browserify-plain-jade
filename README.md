@@ -16,16 +16,32 @@ npm install browserify-plain-jade
 
 ## How to use
 
+Make some Jade:
+
+```jade
+h1 I am a very special penguin!
+```
+
+Require it:
+
+```js
+var template = require('./penguin-jade.jade');
+
+$('.container').append(template);
+```
+
+browserify it with the JavaScript API:
+
 ```js
 var bpj = require('browserify-plain-jade');
 
 var b = browserify();
 b.transform(bpj);
-b.add(file);
+b.add('main.js');
 b.bundle(...);
 ```
 
-or
+...or the CLI:
 
 ```bash
 browserify -t browserify-plain-jade foo.jade > bundle.html
