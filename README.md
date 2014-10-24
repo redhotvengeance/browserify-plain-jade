@@ -4,7 +4,7 @@
 
 ## Another, really?
 
-Yeah, I know, there's a _ton_ of browserify + Jade packages out there...but! Most of them include Jade's runtime in the compiled results, which is great if you want to use Jade's runtime.
+Yeah, I know, there are a _ton_ of browserify + Jade packages out there...but! Most of them include Jade's runtime in the compiled results, which is great if you want to use Jade's runtime.
 
 Me? I just wanted to use Jade's slick syntax along with another templating language (like [mustache](http://mustache.github.io/)) and precompile the Jade templates with browserify. So...bam! Plain Jade. (Get it? Plain Jade...Plain **Jane**...ugh, it's really late at night right now.)
 
