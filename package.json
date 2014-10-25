@@ -7,7 +7,7 @@
     "email": "rhv@redhotvengeance.com",
     "url": "http://redhotvengeance.com"
   },
-  "keywords": ["browserify", "jade", "templates", "plugin", "transform"],
+  "keywords": ["browserify", "jade", "templates", "plugin", "transform", "browserify-transform"],
   "engines" : ["node"],
   "repository":   {
     "type": "git",
