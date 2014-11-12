@@ -7,16 +7,25 @@
     "email": "rhv@redhotvengeance.com",
     "url": "http://redhotvengeance.com"
   },
-  "keywords": ["browserify", "jade", "templates", "plugin", "transform", "browserify-transform"],
-  "engines" : ["node"],
-  "repository":   {
+  "keywords": [
+    "browserify",
+    "jade",
+    "templates",
+    "plugin",
+    "transform",
+    "browserify-transform"
+  ],
+  "engines": [
+    "node"
+  ],
+  "repository": {
     "type": "git",
     "url": "git://github.com/redhotvengeance/browserify-plain-jade.git"
   },
   "homepage": "https://github.com/redhotvengeance/browserify-plain-jade",
-  "main" : "./lib/browserify-plain-jade",
+  "main": "./lib/browserify-plain-jade",
   "dependencies": {
-    "through": "2.3.4",
-    "jade": "~1"
+    "jade": "^1.7.0",
+    "through": "^2.3.6"
   }
 }
