@@ -17,6 +17,6 @@
   "main" : "./lib/browserify-plain-jade",
   "dependencies": {
     "through": "2.3.4",
-    "jade": "0.35.0"
+    "jade": "~1"
   }
 }
