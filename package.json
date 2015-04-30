@@ -1,7 +1,7 @@
 {
   "name": "browserify-plain-jade",
   "description": "browserify transform to compile Jade templates to HTML, leaving the parser behind.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
     "name": "Ian Lollar",
     "email": "rhv@redhotvengeance.com",
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/redhotvengeance/browserify-plain-jade",
   "main": "./lib/browserify-plain-jade",
   "dependencies": {
-    "jade": "^1.7.0",
+    "jade": "^1.9.0",
     "through": "^2.3.6"
   }
 }
